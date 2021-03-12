@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    font-family: Arial;
+    font-size: 50px;
+}
+p{
+    font-family: Arial;
+    font-size: 30px; 
+}
+.firstclass{
+    text-align: end;
+    margin: 20px 0px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.secondclass{
+    text-align: center;
+    margin: 0px;
+}
+h2{
+    font-family: Arial;
+    padding: 15px;
+    font-size: 50px;
+}
+.firstdiv{
+    border: 1px solid black;
+    margin: 20px;
+    height: 750px;
+    width: 45%;
+}
+.seconddiv{
+    border: 1px solid black;
+    margin: 20px;
+    height: 750px;
+    width: 45%;
+}
+.flexcontainer{
+    display: flex;
+    /*flex-direction: row;
+    align-items: stretch;*/
+}
+#container{
+    border: 1px solid red;
+    margin: 20px 0px 20px 20px;
+}
+/*img{
+    height:30px;
+    width:30px;
+}*/
