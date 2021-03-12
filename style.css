@@ -1,0 +1,44 @@
+.megadiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.workflow {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.username {
+    border: 1px solid black;
+}
+
+.userinfo {
+    display: flex;
+    position: relative;
+    margin: 10px;
+}
+
+.userprofile {
+    border: 1px solid black;
+}
+
+.userdata {
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+    border-radius: 8px;
+    margin: 10px;
+}
+
+img {
+    border-radius: 60%;
+}
+
+.userinfo p {
+    display: flex;
+    align-items: center;
+}
+
+.Intro {
+    text-align: center;
+}
