@@ -1,0 +1,89 @@
+.wireframe {
+    display:block;
+    background-size: cover;
+    position: absolute;
+
+}
+
+
+.proPic1 {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    position: relative;
+
+}
+.proPic2 {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    position: relative;
+
+
+}
+.proPic3 {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    position: relative;
+
+
+}
+.proPic4 {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    position: relative;
+
+
+}
+
+.person1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.person2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.person3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.person4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.img {
+    position: relative;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+.info {
+    font-size: 10px;
+
+}
+
+.details {
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    margin-top: 100px;
+}
