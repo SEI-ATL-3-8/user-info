@@ -1,0 +1,72 @@
+body {
+    background-image: url('https://www.fg-a.com/wallpapers/white-background-twill.jpg');
+}
+
+.mainContainer { 
+    display: flex;
+    /* border-color: green; */
+    /* border-style: dotted;
+    border-width: 3px; */
+    justify-content: center;
+    padding: 50px;
+}
+
+.userContainer {
+    display: flex;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    flex-direction: column;
+    height: 600px;
+    width: 300px;
+    padding: 50px;
+    margin: 0px 20px;
+}
+
+.userBoxes {
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10%;
+    border-width: 3px;
+    padding: 10px;
+    border-color: yellow;
+    
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    border-style: double;
+    border-width: 1px;
+    height: 600px;
+    width: 300px;
+    padding: 50px;
+}
+
+.image {
+    border-radius: 50%;
+}
+
+.userNames1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+
+}
+
+.nav-icon.selected {
+    border-color: red;
+    border-style: dotted;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
