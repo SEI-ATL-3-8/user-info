@@ -1,0 +1,71 @@
+h1{
+text-align: center;
+font-weight:500;
+font-family:sans-serif;
+}
+
+container{
+    display:flex;
+    width: 100%;
+    justify-content:space-evenly;
+    flex: row;
+}
+
+box1{
+    display:flex;
+    border:5px solid black;
+    height: 500px;
+    width: 250px;
+    padding: 20px;
+    flex-direction:column;
+    justify-content:space-between;
+    text-align:center;
+    font-family: sans-serif;
+    font-size: larger;
+    background: linear-gradient(silver,orange);
+}
+
+box2{
+    display:flex;
+    border:5px solid black;
+    height: 500px;
+    width: 250px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: larger;
+    background: linear-gradient(silver,blue);
+   
+} 
+
+
+box1 img{
+    
+    border-radius: 50%;
+    height: 75px;
+    margin: 0 20px 0 0;
+}
+
+box1 div{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.select {
+    border: 5px solid red;
+
+}
+
+#jerrys-data{
+    display:block;
+}
+#miriams-data{
+    display:none;
+}
+#melvins-data{
+    display:none;
+}
+#patsys-data{
+    display:none;
+}
