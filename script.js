@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // const users = [
 //     {
 //         name: 'Melvin Fleming',
@@ -67,6 +68,8 @@
 //     })
 // }
 
+=======
+>>>>>>> c51d407bfa2bd855ce89d3069986404a548f7241
 const users = [
     {
         name: 'Melvin Fleming',
@@ -136,5 +139,9 @@ const removeClass = arr => {
         let targetId = itemId.id
         document.getElementById(targetId).classList.remove("selected")
     })
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> c51d407bfa2bd855ce89d3069986404a548f7241
