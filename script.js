@@ -18,8 +18,9 @@ const grabUserData = () => {
     })
 }
 
-grabUserData();
 
+// Updates Labels to latest elements. Each label will be added an event listener 
+//  To track it's relevant user info.
 const renderLabels = (elements,results) => {
     elements.forEach((ele,i) => {
         ele.children[0].src  = results[i].picture.large;
@@ -32,9 +33,7 @@ const renderLabels = (elements,results) => {
     })
 }
 
-const userContent = place => {
-    
-}
+// Actually changes the User Info DOm using UserInfoContainer Dom Element.
 
 const changeUserInfo = ({name,email,location,phone,picture}) => {
     const userChildren = usersInfoContainer.children;
@@ -45,3 +44,5 @@ const changeUserInfo = ({name,email,location,phone,picture}) => {
     userChildren[4].innerText = phone;
 } 
 
+// Start the USers!!
+grabUserData();
