@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+
+body {
+    font-family: 'Chilanka';
+    
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+li {
+    font-size: 0.85em;
+    list-style-type: circle;
+}
+
+p {
+    font-size: 0.65em;
+    font-weight: bolder;
+}
+
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin: 40px;
+    
+}
+
+.subBox {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid blue; */
+    margin: 5px;
+    width: 60%;
+    
+
+}
+
+.navBox {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+    height: 500px;
+    width: 30%;
+    margin: 50px 10px;
+}
+
+.navItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(109, 109, 109);
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.navItem.selected {
+    background-color:rgb(50, 89, 146);
+    color: white;
+    border: 1px solid rgb(50, 89, 146);
+}
+
+.navImg {
+    height: 50px;
+    width: 50px;
+    clip-path: circle(25px at center);
+    
+    
+}
+
+.pageBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 365px;
+    width: 70%;
+    margin: 50px 10px;
+
+}
+
+.pageItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.pageItem.hidden {
+    display: none;
+}
+
+.pageImgBG {
+    height: 200px;
+    width: 205px;
+    clip-path: circle(95px at center);
+    background-color: rgb(50, 89, 146);
+    position: relative;
+}
+
+.pageImg {
+    height: 200px;
+    width: 200px;
+    clip-path: circle(90px at center);
+    position: absolute;
+
+}
+
+
+
