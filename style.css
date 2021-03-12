@@ -1,0 +1,145 @@
+body{
+    background-color:rgb(60, 55, 68);
+}
+img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:50px;
+    height: 50px;
+    object-fit: cover;
+}
+h1{
+    color:rgb(180, 197, 228);
+}
+h2{
+    color:rgb(180, 197, 228);
+}
+.blank{
+width:200px;
+height:200px;
+margin:10px ; 
+}
+.userBox{
+    position: relative;
+    width:50px;
+    height:50px;
+    margin:10px ; 
+    display:flex;
+    justify-content: center;
+}
+.JerryUserBox{
+    position: relative;
+    width:50px;
+    height:50px;
+    margin:10px ; 
+    display:flex;
+    justify-content: center;
+}
+.MelvinUserBox{
+    position: relative;
+    width:50px;
+    height:50px;
+    margin:10px ; 
+    display:flex;
+    justify-content: center;
+}
+.MiriamUserBox{
+    position: relative;
+    width:50px;
+    height:50px;
+    margin:10px ; 
+    display:flex;
+    justify-content: center;
+}
+.PatsyUserBox{
+    position: relative;
+    width:50px;
+    height:50px;
+    margin:10px ; 
+    display:flex;
+    justify-content: center;
+}
+.highlight{
+    border-color:rgb(9, 12, 155);
+    border-style: solid;
+}
+.imgBoxNapa{
+    width:300px;
+    height:300px;
+    margin:10px ; 
+}   
+.JerryBox{
+    margin: 86px;
+} 
+.MelvinBox{
+    margin: 86px;
+} 
+.MiriamBox{
+    margin: 86px;
+} 
+.PatsyBox{
+    margin: 86px;
+} 
+.userContainer{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+    height: 350px;
+    width: 150px;
+}
+.name{
+    height: 400px;
+    width: 150;
+}
+
+.infoContainer{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
+    border-color: red;
+    margin: 20px;
+    height: 350px;
+    width: 150px;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap:wrap;
+    height: 500px
+}
+.title-container{
+    width:100% ;
+    height: 2px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;   
+    border-color: red;
+}
+
+.h1block{
+    width:100%;
+    height: 5px;
+    padding: 0px;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Airbnb Cereal App', sans-serif;
+    color:rgb(251, 255, 241);
+}
+
+.centered {
+    color:rgb(251, 255, 241);
+    font-family: 'Airbnb Cereal App', sans-serif;
+    font-size: 5px;
+    size: 500px;
+  }
+  .hidden{
+      display:none;
+  }
