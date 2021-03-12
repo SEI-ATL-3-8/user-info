@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
   <title>User Info</title>
 </head>
+
 <body>
-  
+  <div class="container">
+    <h1>User Info</h1>
+    <div class="panes">
+      <div class="left-pane">
+        <div class="user selected" id="user1">
+          <img src="./assets/jerry_diaz.jpg" alt="">
+          <span>Jerry Diaz</span>
+        </div>
+        <div class="user" id="user2">
+          <img src="./assets/melvin_fleming.jpg" alt="">
+          <span>Melvin Fleming</span>
+        </div>
+        <div class="user" id="user3">
+          <img src="./assets/miriam_ross.jpg" alt="">
+          <span>Miriam Ross</span>
+        </div>
+        <div class="user" id="user4">
+          <img src="./assets/patsy_harper.jpg" alt="">
+          <span>Patsy Harper</span>
+        </div>
+      </div>
+      <div class="right-pane" id="user-pane-1">
+        <h3>Jerry Diaz</h3>
+        <div class="user-info">
+          <span>jerry@gmail.com</span>
+          <span>+1 801 567456</span>
+          <span>Milcreek, Utah</span>
+        </div>
+      </div>
+
+      <div class="right-pane hidden" id="user-pane-2">
+        <h3>Melvin Fleming</h3>
+        <div class="user-info">
+          <span>melvin@gmail.com</span>
+          <span>+ 1801 6765 7676</span>
+          <span>Murray, Utah</span>
+        </div>
+      </div>
+
+      <div class="right-pane hidden" id="user-pane-3">
+        <h3>Miriam Ross</h3>
+        <div class="user-info">
+          <span>miriam@gmail.com</span>
+          <span>+1801 675432</span>
+          <span>Draper, Utah</span>
+        </div>
+      </div>
+      <div class="right-pane hidden" id="user-pane-4">
+        <h3>Patsy Harper</h3>
+        <div class="user-info">
+          <span>patsy@gmail.com</span>
+          <span>+180679797</span>
+          <span>Park City, Utah</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <script src="./script.js"></script>
 </body>
+
 </html>
