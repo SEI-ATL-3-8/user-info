@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Shippori Mincho B1', serif;
+    background: rgb(246, 249, 219);
+}
+
+/* Typography */
+.user-info-title {
+    text-align: center;
+}
+
+h3 {
+    margin: unset;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.users-info-container
+,.users-container {
+    background: #fff;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 1px 2px 1px rgb(186, 186, 186);
+}
+
+/* User Info Container */
+
+.users-info-container {
+    display: grid;
+}
+
+.users-info-container .user-pic {
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+}
+
+.users-info-container p {
+    text-align: center;
+}
+
+.users-info-container h3 {
+    text-align: center;
+}
+
+
+/* User Container */
+.users-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* User Label */
+
+
+.circle {
+    padding: 40px; 
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.user-label {
+    box-shadow: 1px 1px 1px 1px rgb(186, 186, 186);
+    padding: 10px 20px;
+    background: rgb(248, 253, 255);
+    display: flex;
+    align-items: center;
+}
+
+.user-label:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.user-label .user-pic {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+
+.user-label:hover {
+    cursor: pointer;
+}
+
+.user-label.selected {
+    border: 1px solid black;
+}
