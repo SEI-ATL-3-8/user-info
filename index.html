@@ -4,9 +4,95 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/ga-hw/user-info/style.css">
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Abhaya Libre">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous"/>
   <title>User Info</title>
 </head>
 <body>
-  
+  <div class="user-selector-panel">
+    <div class="gallery">
+    <div class="user-image">
+      <button class="user-toggle">
+        <h3>Jerry<br>Diaz</h3>
+      <img src="/ga-hw/user-info/assets/jerry_diaz.jpg">
+      </button>
+    </div>
+    <div class="user-image">
+      <button class="user-toggle">
+        <h3>Melvin<br>Flemming</h3>
+      <img src="/ga-hw/user-info/assets/melvin_fleming.jpg">
+      </button>
+    </div>
+    <div class="user-image">
+      <button class="user-toggle">
+        <h3>Miriam<br>Ross</h3>
+      <img src="/ga-hw/user-info/assets/miriam_ross.jpg">
+      </button>
+    </div>
+    <div class="user-image">
+      <button class="user-toggle">
+        <h3>Patsy<br>Harper</h3>
+      <img src="/ga-hw/user-info/assets/patsy_harper.jpg">
+      </button>
+    </div>
+    </div>
+  </div>
+  <div class="user-info-panel">
+    <div class="active" id="user">
+      <h2>Jerry Diaz</h2>
+      <img src="/ga-hw/user-info/assets/jerry_diaz.jpg">
+      <i class="fas fa-envelope-square">
+        <p>Email: jerry.diaz@example.com</p>
+      </i>
+      <i class="fas fa-phone">
+        <p>Phone: (034)-061-7169</p>
+      </i>
+      <i class="fas fa-home">
+        <p>Address: 406 Elgin St</p>
+      </i>
+    </div>
+    <div class="hidden" id="user">
+      <h1>Melvin Fleming</h1>
+      <img src="/ga-hw/user-info/assets/melvin_fleming.jpg">
+      <i class="fas fa-envelope-square">
+        <p>Email: melvin.fleming@example.com</p>
+      </i>
+      <i class="fas fa-phone">
+        <p>Phone: (628)-834-3511</p>
+      </i>
+      <i class="fas fa-home">
+        <p>Address: 4904 Rolling Green Rd</p>
+      </i>
+    </div>
+    <div class="hidden" id="user">
+      <h1>Miriam Ross</h1>
+      <img src="/ga-hw/user-info/assets/miriam_ross.jpg">
+      <i class="fas fa-envelope-square">
+        <p>Email: miriam.ross@example.com</p>
+      </i>
+      <i class="fas fa-phone">
+        <p>Phone: (350)-551-0412</p>
+      </i>
+      <i class="fas fa-home">
+        <p>Address: 415 Forest Ln</p>
+      </i>
+    </div>
+    <div class="hidden" id="user">
+      <h1>Patsy Harper</h1>
+      <img src="/ga-hw/user-info/assets/patsy_harper.jpg">
+      <i class="fas fa-envelope-square">
+        <p>Email: patsy.harper@examole.com</p>
+      </i>
+      <i class="fas fa-phone">
+        <p>Phone: (500)-207-0486</p>
+      </i>
+      <i class="fas fa-home">
+        <p>Address: Pecan Acres Ln</p>
+      </i>
+    </div>
+  </div>
+  <script src="/ga-hw/user-info/script.js"></script>
 </body>
 </html>
