@@ -1,0 +1,39 @@
+body{
+     text-align: center; 
+}
+.body{
+    display: flex;
+}
+
+section{
+    border: 2px solid rgb(15, 137, 185);
+    width: 50%;
+    margin: 2em auto;
+    padding: 2em;
+}
+.leftSec{
+    border: 2px solid rgb(35, 118, 156);
+    width: 30%;
+    margin: 1em auto;
+    padding: 1em;
+}
+.rightSec{
+
+}
+.subSec{
+    border: 2px solid rgb(21, 138, 216);
+    width: 30%;
+    height: 30px;
+    margin: 2em auto;
+    padding: 2em;
+}
+
+.user-link:hover {
+    cursor: pointer;
+    color: rgb(230, 10, 10);
+    
+  }
+  
+  .hidden {
+    display: none;
+  }
