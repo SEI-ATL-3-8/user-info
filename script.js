@@ -29,7 +29,6 @@ const users = [
 
 const userNameBox = document.getElementsByClassName("username_box")
 
-// Create an array call for each on said array
 let userNameBoxArr = Array.prototype.forEach.call(userNameBox, (box, index) => {
     console.log(box)
     box.textContent = users[index].name
@@ -47,7 +46,7 @@ for (box of userNameBox) {
         if (document.querySelector(".hide_info_box")) {
             document.querySelector(".hide_info_box").classList.remove("hide_info_box")
         }
-        // my eyes burn
+
         for(user of users) {
             let usersFullName = document.getElementById(target).textContent
             if(user.name === usersFullName) {
@@ -59,7 +58,6 @@ for (box of userNameBox) {
     });
 }
 
-// This works but I barely know why..
 const removeClass = arr => {
     Array.prototype.forEach.call(arr, (itemId) => {
         let targetId = itemId.id
