@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.parentSection {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 60px;
+
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.usersLeft {
+    border: 2px groove;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    margin: 75px ;
+    padding: 15px;
+}
+
+.usersRight {
+    border: 2px groove;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 75px;
+    padding: 25px;
+    
+}
+
+.imageName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.notHidden {
+    display: block;
+}
