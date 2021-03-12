@@ -1,0 +1,86 @@
+.container {
+    border: 1px solid black;
+    height: 400px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.leftBox {
+    border: 1px solid black;
+    height: 300px;
+    width: 220px;
+}
+
+.rightBox {
+    border: 1px solid black;
+    height: 300px;
+    width: 220px;
+}
+
+.circle {
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 5px 0px 10px 10px;
+  }
+
+  p {
+    margin: 0px 0px 10px 70px;
+  }
+
+  .usernameA {
+    margin: 0px 0px 10px 70px;
+  }
+  
+  .usernameB {
+    margin: 0px 0px 10px 70px;
+  }
+
+  .usernameC {
+    margin: 0px 0px 10px 70px;
+  }
+
+  .usernameD {
+    margin: 0px 0px 10px 70px;
+  }
+
+  .userA {
+    margin: 0 0 0 10px;
+  }
+
+  .userBHidden {
+    display: none;
+    margin: 0 0 0 10px;
+  }
+
+  .userCHidden {
+    display: none;
+    margin: 0 0 0 10px;
+  }
+
+  .userDHidden {
+    display: none;
+    margin: 0 0 0 10px;
+  }
+
+  .userARedBox {
+    border: 1px solid red;
+    margin: 4px 4px 4px 4px;
+}
+
+
+ 
+
+  
