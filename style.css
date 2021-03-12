@@ -1,0 +1,36 @@
+
+h1 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+aside, section {
+  height: 500px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+img {
+  border-radius: 50%;
+  max-height: 100px;
+}
+
+.user-link:hover {
+  cursor: pointer;
+}
+
+.user-link {
+  margin: 4px;
+}
+
+.active {
+  border: 2px solid purple;
+}
+
+.hide {
+  display: none;
+}
