@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(240, 240, 240);
+    background-color:rgb(60, 55, 68);
 }
 img{
     position: absolute;
@@ -9,6 +9,12 @@ img{
     height: 50px;
     object-fit: cover;
 }
+h1{
+    color:rgb(180, 197, 228);
+}
+h2{
+    color:rgb(180, 197, 228);
+}
 .blank{
 width:200px;
 height:200px;
@@ -17,12 +23,47 @@ margin:10px ;
 .userBox{
     position: relative;
     width:50px;
-    height:40px;
+    height:50px;
     margin:10px ; 
     display:flex;
     justify-content: center;
-    border-color: red;
-    }
+}
+.JerryUserBox{
+    position: relative;
+    width:50px;
+    height:50px;
+    margin:10px ; 
+    display:flex;
+    justify-content: center;
+}
+.MelvinUserBox{
+    position: relative;
+    width:50px;
+    height:50px;
+    margin:10px ; 
+    display:flex;
+    justify-content: center;
+}
+.MiriamUserBox{
+    position: relative;
+    width:50px;
+    height:50px;
+    margin:10px ; 
+    display:flex;
+    justify-content: center;
+}
+.PatsyUserBox{
+    position: relative;
+    width:50px;
+    height:50px;
+    margin:10px ; 
+    display:flex;
+    justify-content: center;
+}
+.highlight{
+    border-color:rgb(9, 12, 155);
+    border-style: solid;
+}
 .imgBoxNapa{
     width:300px;
     height:300px;
@@ -30,8 +71,6 @@ margin:10px ;
 }   
 .JerryBox{
     margin: 86px;
-    height: 20px;
-    width: 20px
 } 
 .MelvinBox{
     margin: 86px;
@@ -47,9 +86,8 @@ margin:10px ;
     flex-wrap:wrap;
     flex-direction: column;
     justify-content: center;
-    border-color: red;
     margin: 30px;
-    height: 400px;
+    height: 350px;
     width: 150px;
 }
 .name{
@@ -63,8 +101,8 @@ margin:10px ;
     flex-direction: column;
     justify-content: center;
     border-color: red;
-    margin: 30px;
-    height: 400px;
+    margin: 20px;
+    height: 350px;
     width: 150px;
 }
 .container{
@@ -93,13 +131,14 @@ margin:10px ;
     display: flex;
     justify-content: center;
     font-family: 'Airbnb Cereal App', sans-serif;
-    color:rgb(100, 100, 100);
+    color:rgb(251, 255, 241);
 }
 
 .centered {
-    color:gray;
+    color:rgb(251, 255, 241);
     font-family: 'Airbnb Cereal App', sans-serif;
     font-size: 5px;
+    size: 500px;
   }
   .hidden{
       display:none;
