@@ -60,7 +60,7 @@ function displayUsers(array) {
     return list;
 }
 
-// Call displayUsers func to manipulate DOM for the users list
+// Call displayUsers function to manipulate DOM for the users list
 displayUsers(users);
 
 // Select all "li" elements
@@ -70,7 +70,7 @@ var lis = document.querySelectorAll('li');
 for (var i=0; i<lis.length; i++) {
     const user = users[i]; // Get user info at "i" index of users array
 
-    // Regiser onclick even handler of each user item
+    // Register onclick even handler of each user item
     lis[i].onclick = function () {
       // Remove "selected" class name from every user item
       [].forEach.call(lis, function (el) {
