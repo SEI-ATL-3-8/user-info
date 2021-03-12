@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+}
+
+
+
+.mother {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    vertical-align: middle;
+    display: inline;
+    font-size: larger;
+}
+img {
+    vertical-align: middle;
+    padding: 50px;
+}
+
+.userInfo {
+    padding: 100px;
+}
+
+section{
+    padding: 30px;
+}
+
+.user1.selected1 {
+    border: 5px solid red;
+    padding: 1px;
+}
+   
+.user2.selected2 {
+    border: 5px solid red;
+}
+
+.user3.selected3 {
+    border: 5px solid red;
+}
+
+.user4.selected4{
+    border: 5px solid red;
+}
+
+.hidden {
+    display: none;
+  }
+
+  .users {
+      cursor: pointer;
+  }
+
