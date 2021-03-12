@@ -7,14 +7,15 @@ const grabUserData = () => {
     fetch('https://randomuser.me/api/?results=4')
     .then(res=> {
        if (res.ok && res.status === 200) return res.json();
-       throw new Error('Data Error');
+       throw new Error('Data Error From Server');
     })
     .then(data => {
       let {results} = data;
       renderLabels(userLabels,results);
       changeUserInfo(results[0]);
-      console.log(results);
-
+    })
+    .catch(error => {
+        console.log(error.message);
     })
 }
 
