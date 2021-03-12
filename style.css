@@ -1,0 +1,65 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-evenly;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    margin: 20px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+
+#data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#persons {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+#infos {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.info.hidden {
+    display: none;
+}
+
+.user.selected {
+    display: flex;
+    
