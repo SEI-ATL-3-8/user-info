@@ -1,0 +1,51 @@
+body {
+    font-family: verdana;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 5px solid black;
+}
+.mainContainer {
+    display: flex;
+    justify-content: space-around;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+.userContainer {
+    width: 400px;
+    border: 3px solid navy;
+}
+.infoContainer {
+    width: 400px;
+    border: 3px solid navy;
+}
+.user {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 5px;
+}
+.img {
+    width: 25%;
+    margin: 0 20px;
+}
+.name {
+    width: 75%;
+    margin: 0 20px;
+    font-size: 24px;
+}
+.userInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selected {
+    border: 1px solid red;
+}
